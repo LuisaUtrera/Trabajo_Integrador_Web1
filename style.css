@@ -50,8 +50,6 @@ body {
     font-size: 20px;
 }
 
-.btn:hover {
-    background: rgb(255, 255, 255);
 
 }
 .header {
@@ -96,7 +94,7 @@ p {
 }
 
 .btn:hover {
-    background: none;
+    background:white;
 
 }
 

@@ -93,8 +93,9 @@ p {
     background: #f0296b;
 }
 
+
 .btn:hover {
-    background:white;
+    background: white;
 
 }
 
@@ -192,10 +193,7 @@ p {
     font-size: 16px;
 }
 
-.tienda {
-    background: #171717;
 
-}
 
 .nosotros {
     background: url(kawayr62.jpeg) no-repeat center;

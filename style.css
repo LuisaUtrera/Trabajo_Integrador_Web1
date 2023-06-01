@@ -50,10 +50,10 @@ body {
     font-size: 20px;
 }
 
-.navbar a:hover {
-    background: #000000;
-}
+.btn:hover {
+    background: white;
 
+}
 .header {
     display: flex;
     justify-content: center;

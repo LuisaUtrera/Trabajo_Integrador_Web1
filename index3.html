@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Luisa Utrera">
+  <title>Formulario de contacto</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/73f851add2.js" crossorigin="anonymous"></script>
+  <meta name="author" content="Luisa Utrera">
+
+</head>
+
+<body>
+
+
+  <html>
+    <head>
+        <link rel="stylesheet" href="stylo.css">
+    </head>
+    <body>
+        <div class="head">
+
+            <div class="logo">
+                <a href="#">logo</a>
+            </div>
+    
+            <nav class="navbar">
+                <a href="../index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+               
+               
+            </nav>
+    
+        </div>
+
+        
+        </div>
+    </body>
+  <nav class="navbar">
+    <a href="../index.html">Inicio</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="">Contacto</a>
+<h1>Complete los datos y nos comunicaremos con usted</h1>
+  </nav>
+
+
+
+
+  <main>
+    
+    <form action="#" class="formulario" id="formulario">
+     
+      <div class="formulario__grupo" id="grupo__usuario">
+        <label class="formulario__label">Nombre de usuario</label>
+        <div class="formulario__grupo-input">
+          <input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="Miaw_Motors">
+          <i class="formulario__validacion-estado fas fa-times-circle"></i>
+        </div>
+        <p class="formulario__input-error">El usuario debe tener minimo 4 caracteres y solo se admiten números, letras y
+          guión bajo.</p>
+      </div>
+
+
+     
+      <div class="formulario__grupo" id="grupo__nombre">
+        <label class="formulario__label">Nombre y Apellido</label>
+        <div class="formulario__grupo-input">
+          <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+          <i class="formulario__validacion-estado fas fa-times-circle"></i>
+        </div>
+        <p class="formulario__input-error">El nombre debe tener minimo 4 caracteres y solo se admiten números, letras y
+          guión bajo.</p>
+      </div>
+
+
+
+      <div class="formulario__grupo" id="grupo__correo">
+        <label class="formulario__label">Correo Electonico</label>
+        <div class="formulario__grupo-input">
+          <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@miawmotors.com">
+          <i class="formulario__validacion-estado fas fa-times-circle"></i>
+        </div>
+        <p class="formulario__input-error">El correo debe tener mÍnimo 4 caracteres y sólo se admiten números, letras y
+          guión bajo.</p>
+      </div>
+
+
+      <div class="formulario__grupo" id="grupo__telefono">
+        <label class="formulario__label">Teléfono</label>
+        <div class="formulario__grupo-input">
+          <input type="telefono" class="formulario__input" name="telefono" id="telefono" placeholder="0123456789">
+          <i class="formulario__validacion-estado fas fa-times-circle"></i>
+        </div>
+        <p class="formulario__input-error">El número debe tener 10 digitos</p>
+      </div>
+
+
+    
+      <div class="formulario__grupo formulario__grupo-terminos" id="grupo__terminos">
+        <label class="formulario__label">
+          <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+          <b class="formulario__span">Acepto los terminos y condiciones</b>
+        </label>
+      </div>
+
+     
+      <div class="formulario__mensaje" id="formulario__mensaje">
+        <p><i class="fas fa-exclamation-circle"> <b>Error:</b>Se deben complerar todos los campos</i></p>
+      </div>
+
+
+    
+      <div class="formulario__grupo formulario__grupo-btn-enviar">
+        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">El formulario se envió correctamente</p>
+        <input class="formulario__btn" type="submit" value="Enviar">
+      </div>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

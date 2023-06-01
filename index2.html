@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
+    <link rel="stylesheet" href="stylo.css">
+    <script src="https://kit.fontawesome.com/c549e3b5fb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="head">
+
+        <div class="logo">
+            <a href="#">logo</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="../index.html">Inicio</a>
+            <a href="index3.html">Contacto</a>
+
+        </nav>
+
+    </div>
+
+    <header class="content header">
+        <h2 class="title">Nosotros</h2>
+
+        </article>
+
+        <article class="p">
+            <p>
+                A principio del año 2005, surge la posibilidad de comercializar motocicletas
+                procedentes de Japón. De esta forma, nuestros fundadores decidieron volcar toda su pasión y
+                conocimientos hacia la creación de una empresa dedicada al mundo de las dos ruedas,
+                contando en todo momento con la ayuda y el respaldo inestimable de sus familias,
+                esenciales para marcarles el camino de la ética como pilar fundamental del nacimiento de Miaw Motors.
+                El paso del tiempo fue testigo de un crecimiento sostenido a través de una continúa basada en la
+                interpretación
+                de las necesidades de los usuarios, desarrollando, verificando y poniendo en práctica
+                nuevas soluciones tendientes a lograr la satisfacción total del cliente.
+                De esta forma, Miaw Motors se convirtió en la empresa líder en la venta de motos
+                de la provincia de San Luis, y un referente principal del sector a nivel nacional.
+
+
+            </p>
+
+
+
+    </header>
+    <div class="main">
+        <div class="slider">
+            <img src="kawasaki_ninja_650_2020_3.jpg" alt="image" />
+            <div class="btn">
+                <button onclick="atras()"><i class="fa-solid fa-chevron-left"></i></button>
+                <button onclick="adelante()"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        var mainimg = document.querySelector("img")
+        var images = ["kawasaki_ninja_650_2020_3.jpg", "kawayr6.webp", "motos.avif", "KawasakiNinja.jpg", "YamahaR6.jpg", "Hondacbr.jpg"]
+        var num = 0
+
+        function adelante() {
+            num++;
+            if (num >= images.length) {
+                num = 0
+                mainimg.src.images[num]
+            } else {
+                mainimg.src = images[num]
+            }
+
+        };
+        function atras() {
+            num--;
+            if (num < 0) {
+                num = images.length - 1;
+                mainimg.src = images[num]
+            } else {
+                mainimg.src = images[num]
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>

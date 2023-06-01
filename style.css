@@ -51,7 +51,7 @@ body {
 }
 
 .btn:hover {
-    background: #ffffff;
+    background: rgb(255, 255, 255);
 
 }
 .header {
